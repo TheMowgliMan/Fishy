@@ -1,0 +1,541 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Lifeforms/LifeForm.tscn" type="PackedScene" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 29.5, 118 )
+
+[node name="World" type="Node2D"]
+
+[node name="Barrier" type="StaticBody2D" parent="."]
+position = Vector2( -486, -30 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier2" type="StaticBody2D" parent="."]
+position = Vector2( -488, 202 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier2"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier2"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier3" type="StaticBody2D" parent="."]
+position = Vector2( -489, 423 )
+rotation = -0.785398
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier3"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier3"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier4" type="StaticBody2D" parent="."]
+position = Vector2( -348, 567 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier4"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier4"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier5" type="StaticBody2D" parent="."]
+position = Vector2( -122, 569 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier5"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier5"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier6" type="StaticBody2D" parent="."]
+position = Vector2( 85, 306 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier6"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier6"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier7" type="StaticBody2D" parent="."]
+position = Vector2( 83, 538 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier7"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier7"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier8" type="StaticBody2D" parent="."]
+position = Vector2( 82, 759 )
+rotation = -0.785398
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier8"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier8"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier9" type="StaticBody2D" parent="."]
+position = Vector2( 223, 903 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier9"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier9"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier10" type="StaticBody2D" parent="."]
+position = Vector2( 449, 905 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier10"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier10"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier11" type="StaticBody2D" parent="."]
+position = Vector2( 544, 304 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier11"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier11"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier12" type="StaticBody2D" parent="."]
+position = Vector2( 542, 536 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier12"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier12"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier13" type="StaticBody2D" parent="."]
+position = Vector2( 541, 757 )
+rotation = -0.785398
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier13"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier13"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier14" type="StaticBody2D" parent="."]
+position = Vector2( 682, 901 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier14"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier14"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier15" type="StaticBody2D" parent="."]
+position = Vector2( 908, 903 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier15"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier15"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier16" type="StaticBody2D" parent="."]
+position = Vector2( 421, -326 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier16"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier16"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier17" type="StaticBody2D" parent="."]
+position = Vector2( 419, -94 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier17"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier17"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier18" type="StaticBody2D" parent="."]
+position = Vector2( 418, 127 )
+rotation = -0.785398
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier18"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier18"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier19" type="StaticBody2D" parent="."]
+position = Vector2( 559, 271 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier19"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier19"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier20" type="StaticBody2D" parent="."]
+position = Vector2( 785, 273 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier20"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier20"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier21" type="StaticBody2D" parent="."]
+position = Vector2( -109, -723 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier21"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier21"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier22" type="StaticBody2D" parent="."]
+position = Vector2( -111, -491 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier22"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier22"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier23" type="StaticBody2D" parent="."]
+position = Vector2( -112, -270 )
+rotation = -0.785398
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier23"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier23"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier24" type="StaticBody2D" parent="."]
+position = Vector2( 29, -126 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier24"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier24"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier25" type="StaticBody2D" parent="."]
+position = Vector2( 255, -124 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier25"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier25"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier26" type="StaticBody2D" parent="."]
+position = Vector2( -568, -671 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier26"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier26"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier27" type="StaticBody2D" parent="."]
+position = Vector2( -570, -439 )
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier27"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier27"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier28" type="StaticBody2D" parent="."]
+position = Vector2( -571, -218 )
+rotation = -0.785398
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier28"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier28"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier29" type="StaticBody2D" parent="."]
+position = Vector2( -430, -74 )
+rotation = -1.5708
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier29"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier29"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="Barrier30" type="StaticBody2D" parent="."]
+position = Vector2( -204, -72 )
+rotation = -1.42817
+collision_layer = 3
+collision_mask = 3
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Texture" type="Sprite" parent="Barrier30"]
+position = Vector2( 0, 86.5 )
+scale = Vector2( 1, 3.70313 )
+texture = ExtResource( 2 )
+
+[node name="Collider" type="CollisionShape2D" parent="Barrier30"]
+position = Vector2( -0.5, 87 )
+shape = SubResource( 1 )
+
+[node name="LifeForm" parent="." instance=ExtResource( 1 )]
+position = Vector2( -174, 226 )
+rotation = 0.0112822
